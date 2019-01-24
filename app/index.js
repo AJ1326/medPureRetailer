@@ -33,7 +33,7 @@
     var win = new BrowserWindow({
       width: 1280,
       height: 800,
-      frame: false
+      frame: true
     })
     win.loadURL('file://' + __dirname + '/main.html')
     win.on('closed', onClosed)
@@ -131,6 +131,8 @@
    */
   app.on('ready', function () {
     mainWindow = createMainWindow()
+    // Open the DevTools.
+    mainWindow.webContents.openDevTools()
     const isDev = require('electron-is-dev')
     if (isDev) {
       electronDevTools.default(electronDevTools.ANGULARJS_BATARANG);

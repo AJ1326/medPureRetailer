@@ -1,0 +1,202 @@
+.main-navbar .header-brand {
+    text-align: left;
+    padding-left: 0;
+}
+
+.side-menu__item {
+    padding: 5px 5px 5px 20px;
+}
+
+.side-menu li:first-child {
+    padding-top: 10px;
+}
+
+.app-sidebar {
+    background-color: #48919a;
+}
+
+.page-title {
+    color: #000;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.btn-edit i {
+    color: #fff;
+}
+
+.btn-edit {
+    border-radius: 0 !important;
+    background-color: #48919a;
+    height: 30px !important;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.app-content {
+    padding: 20px 10px 0;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+.card-header {
+    padding: 2px 20px !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.card-header h4 {
+    font-size: 14px !important;
+}
+
+.card .card-body {
+    padding: 10px 20px;
+}
+
+.form-control {
+    padding: 5px !important;
+    font-size: 12px !important;
+    height: 30px;
+}
+
+.form-group {
+    padding: 0 5px !important;
+    margin-bottom: 0.4rem !important;
+}
+
+.border-div {
+    border-bottom: 1px solid #ddd !important;
+    height: 0px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.table-samll-txt th {
+    font-size: 12px !important;
+    padding: 5px !important;
+}
+
+.table-samll-txt td {
+    font-size: 12px !important;
+    padding: 5px !important;
+}
+
+.tabs-table {
+    padding: 0 12px;
+    margin-top: -15px;
+    background-color: #fff;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #393a3c;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.nav-tabs .nav-item .nav-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #88898c;
+    display: inline-block;
+}
+
+.close-btn {
+    float: right;
+    background-color: #ef8888;
+    border: 0;
+    color: #fff;
+    margin-left: 15px;
+    padding: 0px 5px;
+}
+
+.tab-content {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.footer-checks {
+    margin-top: 10px;
+}
+
+.small-label label {
+    font-size: 13px !important;
+}
+
+.padding-5 {
+    padding: 5px 10px;
+}
+
+.margin-15 {
+    margin: 15px 0;
+}
+
+.margin-t30 {
+    margin-top: 30px;
+}
+
+.icon-reports {
+    display: block;
+    font-size: 34px;
+    margin: 15px;
+}
+
+.add-tab {
+    cursor: pointer;
+}
+
+.color-set {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px;
+}
+
+.color1 {
+    background-color: #18169c;
+}
+
+.color2 {
+    background-color: #16899c;
+}
+
+.color3 {
+    background-color: #25131d;
+}
+
+.color4 {
+    background-color: #6d301d;
+}
+
+.color5 {
+    background-color: #7146b5;
+}
+
+.color6 {
+    background-color: #46b5ab;
+}
+
+.side-menu__item.active,
+.side-menu__item:hover,
+.side-menu__item:focus {
+    text-decoration: none;
+    color: #e2e4f1;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.bg-custom-pattern {
+    background-image: url('../img/sativa.png')
+}
